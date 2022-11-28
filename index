@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Charlotte George</title>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#portfolio">Interactive Portfolio</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </head>
+  <body>
+    <div id="home">
+      <h1>Meet Charlotte George.</h1>
+      <p>I'm a programmer and game designer/developer, and I'm currently a senior in high school.</p>
+    </div>
+    <div id="projects">
+      <h1>Here's some projects I've worked on.</h1>
+    </div>
+    <div id="portfolio">
+      <h1>You can download my interactive portfolio<a href="test.zip">here</a></h1>
+    </div>
+  </body>
+</html>
