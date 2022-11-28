@@ -1,3 +1,3 @@
 window.onbeforeunload = function () {
-            window.scrollTo("#home");
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         };
