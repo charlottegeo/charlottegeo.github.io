@@ -9,7 +9,7 @@ html {
   width: 50%;
 }
 .navbar a {
-  float: left;
+  float: right;
   display: block;
   color: #f2f2f2;
   font-family: "Lucida Console", "Courier New", monospace;
