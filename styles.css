@@ -22,7 +22,11 @@ html {
   background: #ddd;
   color: black;
 }
-
+p {
+  margin: 3cm auto 3cm;
+  width: 300px;
+  text-align: center;
+}
 body {
   font-family: "Lucida Console", "Courier New", monospace;
   background-color: Black;
