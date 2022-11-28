@@ -29,7 +29,8 @@ body {
   color: GhostWhite;
   text-align: center;
 }
-div {
+
+div:not(#navbar) {
   padding-top: 75px;
   padding-right: 30px;
   padding-bottom: 75px;
