@@ -30,7 +30,7 @@ body {
   text-align: center;
 }
 
-div:not(#navbar) {
+div:not(.navbar) {
   padding-top: 75px;
   padding-right: 30px;
   padding-bottom: 75px;
