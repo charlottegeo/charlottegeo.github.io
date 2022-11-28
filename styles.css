@@ -39,3 +39,7 @@ div {
     text-align: center;
     margin-top: 150px;
 }
+ul {
+  columns: 2;
+}
+  
