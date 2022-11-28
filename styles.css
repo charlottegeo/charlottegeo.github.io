@@ -1,9 +1,10 @@
 html {
   scroll-behavior: smooth;
+  color: #a9c52f;
 }
 .navbar {
   overflow: hidden;
-  background-color: #435055;
+  background-color;
   position: fixed;
   top: 0;
   width: 100%;
@@ -29,8 +30,7 @@ p {
 }
 body {
   font-family: "Lucida Console", "Courier New", monospace;
-  background-color: #27323a;
-  color: GhostWhite;
+  background-color: #283739;
   text-align: center;
 }
 
