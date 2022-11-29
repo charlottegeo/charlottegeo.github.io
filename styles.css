@@ -54,7 +54,7 @@ img {
 }
 .column {
   float: left;
-  width: 25vw;
+  width: 20vw;
   padding: 5px;
 }
 .row::after {
