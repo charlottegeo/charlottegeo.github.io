@@ -1,3 +1,3 @@
 window.onbeforeunload = function () {
-            window.scrollTo({ "#home", behavior: 'smooth' });
+            window.location.href = "https://charlottegeo.github.io/";
         };
