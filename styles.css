@@ -56,9 +56,12 @@ img {
   float: left;
   width: 20vw;
   padding: 5px;
+  display: inline-block;
 }
 .row::after {
   content: "";
   clear: both;
   display: table;
+  white-space: nowrap;
+  overflow-x: auto;
 }
