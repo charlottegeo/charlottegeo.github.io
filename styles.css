@@ -56,7 +56,12 @@ ul {
 ul li {
   padding-left: 50px;
 }
-img {
-  border-radius: 50%;
-  width: 25%;
+.tab-content {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+.tab-content.active {
+  height: auto;
 }
