@@ -49,15 +49,14 @@ ul {
   columns: 2;
   padding: 0;
   margin: 0;
-  padding-left: 10px;
+  padding-left: 50px;
   text-align: center;
   line-height:180%;
+}
+ul li {
+  padding-left: 50px;
 }
 img {
   border-radius: 50%;
   width: 25%;
-}
-span {
-  position: relative;
-  left: -12px;
 }
