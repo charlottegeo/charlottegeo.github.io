@@ -49,6 +49,7 @@ ul {
   columns: 2;
   padding: 0;
   margin: 0;
+  padding-left: 10px;
 }
 img {
   border-radius: 50%;
