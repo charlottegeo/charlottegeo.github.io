@@ -57,3 +57,7 @@ img {
   border-radius: 50%;
   width: 25%;
 }
+span {
+  position: relative;
+  left: -12px;
+}
