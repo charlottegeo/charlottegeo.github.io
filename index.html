@@ -34,21 +34,21 @@
     <div id="projects">
       <h1>Here's some projects I've worked on.</h1>
       <div class="tabs">
-        <button class="tab" data-tab="tab1">C++</button>
-        <button class="tab" data-tab="tab2">C#</button>
-        <button class="tab" data-tab="tab3">Java</button>
-        <button class="tab" data-tab="tab4">Python</button>
+        <button class="tab" onclick="openCode(event, 'C++')">C++</button>
+        <button class="tab" onclick="openCode(event, 'C#')">C#</button>
+        <button class="tab" onclick="openCode(event, 'Java')">Java</button>
+        <button class="tab" onclick="openCode(event, 'Python')">Python</button>
       </div>
-      <div class="tab-content" id="tab1">
+      <div class="tab-content" id="C++">
         <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@charlottegeo/Layton-Bot?embed=true"></iframe>
       </div>
-      <div class="tab-content" id="tab2">
+      <div class="tab-content" id="C#">
         <p>An application to manage employee </p>
       </div>
-      <div class="tab-content" id="tab3">
+      <div class="tab-content" id="Java">
         <p>Maybe a weather forecasting program?</p>
       </div>
-      <div class="tab-content" id="tab4">
+      <div class="tab-content" id="Python">
         <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@charlottegeo/Layton-Bot?embed=true"></iframe>
       </div>
     </div>
