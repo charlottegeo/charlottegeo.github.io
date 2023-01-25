@@ -61,6 +61,9 @@ ul li {
   padding-left: 50px;
 }
 .tab {
+  display: inline-block;
+}
+.tabs {
   display: flex;
 }
 .tab-content {
