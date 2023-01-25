@@ -1,14 +1,16 @@
-const tabs = document.querySelectorAll(".tab");
-const tabContents = document.querySelectorAll(".tab-content");
-tabs.forEach(tab => {
-    tab.addEventListener("click", event => {
-        tabContents.forEach(tabContent => {
-            tabContent.style.display = "none";
-        });
-        const tabId = event.target.getAttribute("data-tab");
-        document.getElementById(tabId).style.display = "block";
-    });
-});
+function openCode(evt, language) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(language).style.display = "block";
+  evt.currentTarget.className += " active";
+}
 window.onload = function () {
             window.scrollTo(0,0);
         };
