@@ -66,6 +66,7 @@ ul li {
   height: 0;
   overflow: hidden;
   transition: height 0.5s;
+  display: none;
 }
 
 .tab-content.active {
