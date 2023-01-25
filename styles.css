@@ -29,6 +29,9 @@ p {
   width: 300px;
   /* text-align: center; */
 }
+h1 {
+  text-align: center;
+}
 body {
   font-family: "Lucida Console", "Courier New", monospace;
   background-color: #283739;
