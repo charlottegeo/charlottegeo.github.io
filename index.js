@@ -3,10 +3,10 @@ const tabContents = document.querySelectorAll(".tab-content");
 tabs.forEach(tab => {
     tab.addEventListener("click", event => {
         tabContents.forEach(tabContent => {
-            tabContent.classList.remove("active");
+            tabContent.style.display = "none";
         });
         const tabId = event.target.getAttribute("data-tab");
-        document.getElementById(tabId).classList.add("active");
+        document.getElementById(tabId).style.display = "block";
     });
 });
 window.onload = function () {
