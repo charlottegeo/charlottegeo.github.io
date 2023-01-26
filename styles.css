@@ -39,7 +39,7 @@ body {
   /* text-align: center; */
 }
 
-div:not(.navbar):not(.tabs):not(.tab-content) {
+div:not(.navbar):not(.tab):not(.tabcontent) {
   padding-top: 75px;
   padding-right: 30px;
   padding-bottom: 75px;
