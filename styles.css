@@ -1,12 +1,11 @@
+* {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
 html {
   scroll-behavior: smooth;
   color: #f5f5f5;
 }
-
-html * {
-  font-family: "Lucida Console", "Courier New", monospace;
-}
-
 .navbar {
   overflow: hidden;
   background-color: #2c5d63;
